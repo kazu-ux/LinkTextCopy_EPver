@@ -18,7 +18,6 @@ chrome.runtime.onInstalled.addListener(() => {
 
     //テキストをクリップボードにコピーする
     const saveToClipboard = (str) => {
-        console.log(str);
         const textArea = document.createElement("textarea");
 
         document.body.appendChild(textArea);
